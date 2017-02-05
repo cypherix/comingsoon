@@ -38,7 +38,7 @@ body{
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-    background-image: url(../media/home-bg.jpg);
+    background-image: url(../media/home-bg.jpg)
 }
 
 body{
@@ -46,6 +46,7 @@ body{
 }
 
 .main-page{
+    background: url(../media/home-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
