@@ -38,16 +38,20 @@ body{
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-    background-image: url(../media/home-bg.jpg)
+    background-image: url(../media/home-bg.jpg);
 }
 
 body{
-    background: url(../media/home-bg.jpg);
+    background: #000;
+}
+
+.main-page{
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     height: 100%;
     width: 100%;
+    padding-bottom: 2em;
 }
 
 
@@ -300,3 +304,15 @@ header .social-links ul li a:focus {
     color:grey;
 }
 
+.about{
+    background: url("../media/home-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-heading{
+    margin: 20px auto;
+    font-family: 'Arimo', sans-serif;
+    text-decoration: underline;
+}
