@@ -78,14 +78,12 @@ body {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+    background-image: url(../media/home-bg.png)
 }
 
-
-@media screen and (max-width: 500px) { 
-  div{width:70%;} 
-}
-@media all and (max-device-width: 800px) {
-  body { background: url("../media/home-bg.jpg") #000 no-repeat center center fixed; background-size: cover; }
-  #bgvid, #polina button { display: none; }
-  div{width:70%;} 
+body{
+    background: url(../media/home-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
