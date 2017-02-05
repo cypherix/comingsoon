@@ -1,3 +1,7 @@
+
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
+@import url('https://fonts.googleapis.com/css?family=Arimo');
 /*!
 Styles for full screen background video demo
 */
@@ -16,61 +20,13 @@ video {
 }
 
 /* =============================================================================
-  HTML, BODY
-============================================================================= */
-html,
-body {
-  height: 100%;
-}
-
-body {
-  font-size: 16px;
-  font-family: "Oxygen", sans-serif;
-  line-height: 1.5;
-}
-
-/* =============================================================================
-  CONTENT
-============================================================================= */
-.content {
-  position: relative;
-  top: 30%;
-  z-index: 2;
-  margin: 0 auto;
-  max-width: 720px;
-  text-align: center;
-}
-
-.content__heading {
-  margin-bottom: 24px;
-  color: #272727;
-  font-size: 44px;
-}
-
-.content__teaser {
-  margin-bottom: 24px;
-  color: #595959;
-  font-size: 22px;
-}
-
-.content__cta {
-  display: inline-block;
-  margin: 0;
-  padding: 12px 48px;
-  color: #ff3c64;
-  font-size: 22px;
-  text-decoration: none;
-  border: solid 4px #ff3c64;
-}
-
-/* =============================================================================
   VIDEO
 ============================================================================= */
 .video {
   position: absolute;
   top: 50%;
   left: 50%;
-  z-index: 1;
+  z-index: -100;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -86,4 +42,206 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+
+.site-title{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 66px;
+    font-family: 'Arimo', sans-serif;
+    margin: 0 0 50px 0;
+    padding-bottom: 50px;
+    margin-top: 4em;
+    position: relative;
+    color: white;
+}
+.site-title:before,
+.site-title:after{
+	content:"";
+	width:100px;
+	height:10px;
+	left:50%;
+	margin-left:-50px;
+	border-bottom:1px double #fff;
+	position:absolute;
+}
+.site-title:before{
+	bottom:0;
+}
+.site-title:after{
+	bottom:2px;
+}
+
+
+
+
+
+
+
+
+
+header {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 700;
+}
+header .row {
+	height: auto;
+	max-width: 1290px;
+	position: relative;
+}
+
+/* ------------------------------------------------------------------- 
+ * header logo - (_layout.css) 
+ * ------------------------------------------------------------------- */
+header .logo {
+	position: absolute;
+	left: 26px;
+	top: 0;
+	margin-top: 45px;
+    margin-left: 30px;
+}
+header .logo a {
+	display: block;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: none;
+	width: 97px;
+	height: 84px;
+	background: url("../media/logo.png") no-repeat center;
+	background-size: 97px 84px;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+/* ------------------------------------------------------------------- 
+ * header social - (_layout.css)  
+ * ------------------------------------------------------------------- */
+header .social-links {
+	position: absolute;
+	right: 20px;
+	top: 78px;
+	text-align: right;
+}
+
+header .social-links ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 2.7rem;
+}
+
+header .social-links ul li {
+	display: inline-block;
+	padding: 0 .9rem;
+}
+
+header .social-links ul li:last-child {
+	padding-right: 0;
+}
+
+header .social-links ul li a,
+header .social-links ul li a:visited {
+	color: #FFFFFF;
+}
+
+header .social-links ul li a:hover,
+header .social-links ul li a:focus {
+	color: #057f78;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * header section 
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:1024px) {
+	header .logo {
+		left: 24px;
+		margin-top: 42px;
+	}
+	header .logo a {
+		width: 90px;
+		height: 78px;
+		background-size: 90px 78px;
+	}
+	header .social-links {
+		right: 18px;
+		top: 54px;
+	}
+}
+@media only screen and (max-width:768px) {
+	header .logo {
+		left: 51px;
+		margin-top: 36px;
+	}
+	header .logo a {
+		width: 80px;
+		height: 70px;
+		background-size: 80px 70px;
+	}
+	header .social-links {
+		right: 45px;
+		top: 48px;
+	}
+}
+@media only screen and (max-width:600px) {
+	header .logo {
+		left: 41px;
+		margin-top: 30px;
+	}
+	header .logo a {
+		width: 70px;
+		height: 61px;
+		background-size: 70px 61px;
+	}
+	header .social-links {
+		right: 41px;
+		top: 42px;
+	}
+	header .social-links ul {
+		font-size: 2.4rem;
+	}
+}
+@media only screen and (max-width:500px) {
+	header .logo {
+		left: 35px;
+	}
+	header .social-links {
+		right: 35px;
+	}
+	header .social-links ul {
+		font-size: 2.1rem;
+	}
+	header .social-links ul li {
+		padding: 0 .6rem;
+	}
+}
+@media only screen and (max-width:380px) {
+	header .logo {
+		left: 30px;
+		margin-top: 30px;
+	}
+	header .logo a {
+		width: 60px;
+		height: 52px;
+		background-size: 60px 52px;
+	}
+	header .social-links ul {
+		font-size: 2rem;
+	}
+	header .social-links li {
+		padding: 0 .3rem;
+	}
 }
