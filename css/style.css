@@ -275,7 +275,12 @@ header .social-links ul li a:focus {
 }
 @media only screen and (max-width: 500px) {
     .counter{
-        font-size: 3em;
+        font-size: 5em;
+    }
+    .counter span{
+        font-size: 20px;
+        position: relative;
+        top:-1.6em;
     }
 }
 
