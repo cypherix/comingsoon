@@ -273,6 +273,11 @@ header .social-links ul li a:focus {
     font-family: 'Roboto', sans-serif;
     color:grey;
 }
+@media only screen and (max-width: 500px) {
+    .counter{
+        font-size: 3em;
+    }
+}
 
 
 
