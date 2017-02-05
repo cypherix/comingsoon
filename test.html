@@ -1,66 +1,47 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <link rel="stylesheet" href="css/vendor.css"/>
-    <link rel="stylesheet" href="css/base.css"/>
-    <link rel="stylesheet" href="css/demo.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+}
+</style>
 </head>
 <body>
-   <section id="home" class="home-static">
-       <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
-  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
-<source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
-</video>
 
-   	<div class="shadow-overlay"></div>
+<p id="demo"></p>
 
-   	<div class="content-wrap-table">		   
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jun 5, 2017 15:37:25").getTime();
 
-		   <div class="main-content-tablecell">
+// Update the count down every 1 second
+var x = setInterval(function() {
 
-		   	<div class="row">
-		   		<div class="col-twelve">
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "It's Time Up";
+    }
+}, 1000);
+</script>
 
-		   			<div id="counter">
-		   				<div class="half">
-		   					<span>334 <sup>days</sup></span> 
-		 						<span>23 <sup>hours</sup></span>
-		   				</div>
-							<div class="half">
-								<span>50 <sup>mins</sup></span>
-		 						<span>33 <sup>secs</sup></span>
-		 					</div> 
-		   			</div>
-
-			  			<div class="bottom-text">
-			  				<h1>Our site is launching soon.</h1>
-				  			<p>
-							Khronos is a modern and stylish website template designed to present
-							your future super awesome product or service. 
-				  			</p>			  				
-			  			</div>			  						  			   			
-
-			   	</div> <!-- /twelve --> 
-
-			   
-			   
-		   	</div> <!-- /row -->  
-
-		   </div> <!-- /main-content --> 
-		   
-		</div> <!-- /content-wrap -->
-   
-   </section> <!-- /home -->
-
-
-    <script src="js/main.js"></script>
-    <script src="js/modernizr.js"></script>
-    <script src="js/plugins.js"></script>
-
-
-</body>    
+</body>
 </html>
