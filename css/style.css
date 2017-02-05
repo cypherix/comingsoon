@@ -7,7 +7,7 @@
 Styles for full screen background video demo
 */
 /* =============================================================================
-  RESETS
+  RESETS AND UNIVERSALS
 ============================================================================= */
 html,
 body,
@@ -20,6 +20,9 @@ video {
   padding: 0;
 }
 
+body{
+    color:white;
+}
 /* =============================================================================
   VIDEO
 ============================================================================= */
@@ -43,6 +46,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -248,6 +253,7 @@ header .social-links ul li a:focus {
     left: 50%;
     margin-left: -65px;
     bottom: 4.5em;
+    font-size: 16px;
 }
 @media only screen and (max-width: 700px) {
     .site-catch{
@@ -273,7 +279,7 @@ header .social-links ul li a:focus {
     font-family: 'Roboto', sans-serif;
     color:grey;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     .counter{
         font-size: 5em;
     }
@@ -284,5 +290,13 @@ header .social-links ul li a:focus {
     }
 }
 
-
+.short-description h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+}
+.short-description p{
+    font-size: 20px;
+    color:grey;
+}
 
