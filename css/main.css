@@ -1,6 +1,5 @@
-
 video { 
-    position:absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -14,8 +13,13 @@ video {
   transition: 1s opacity;
 }
 
-
-
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
 /* =================================================================== 
  *
  *  Khronos v1.0 Main Stylesheet
@@ -1003,7 +1007,7 @@ header .social-links ul li a:focus {
 }
 
 #home.home-static {
-	background-image: url(../artificial_intelligent_product_by_gleb_2.gif);
+	background-image: url(../images/home-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
