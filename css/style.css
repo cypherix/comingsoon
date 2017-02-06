@@ -467,25 +467,25 @@ input[placeholder]{
 @media only screen and (max-width: 768px){
     .main-page{
         background: url(../media/home-bgmob.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment:fixed;
     }
     .about{
         background: url(../media/about-bgmob.JPG);
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment:fixed;
     }
     .team{
         background: url(../media/team-bgmob.JPG);
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment:fixed;
     }
     .contact{
         background: url(../media/contact-bgmob.JPG);
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment:fixed;
     }
