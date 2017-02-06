@@ -28,21 +28,3 @@ var x = setInterval(function() {
         document.getElementById("counter").innerHTML = "It's Time Up";
     }
 }, 1000);
-
-
-//THE VIDEO
-
-(function() {
-  /**
-   * Video element
-   * @type {HTMLElement}
-   */
-  var video = document.getElementById("my-video");
-
-  /**
-   * Check if video can play, and play it
-   */
-  video.addEventListener( "canplay", function() {
-    video.play();
-  });
-})();

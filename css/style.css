@@ -31,6 +31,7 @@ body{
     background: url(../media/home-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment:fixed;
     height: 100%;
     width: 100%;
@@ -337,12 +338,16 @@ header .social-links ul li a:focus {
     .news-letter button{
         text-align: center;
     }
+    .news-letter{
+        margin-bottom: 3em;
+    }
 }
 
 .about{
     background: url(../media/about-bg.JPG);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment:fixed;
     height: 100%;
     width: 100%;
@@ -367,15 +372,23 @@ header .social-links ul li a:focus {
     font-size: 20px;
 }
 @media only screen and (max-width: 700px){
-    .about p{
-        padding-left: 6em;
-        padding-right: 6em;
+    .about .img-description{
+        padding-left: 5em;
+        padding-right: 5em;
+        margin-bottom: 2em;
+    }
+    .about .row{
+        margin-top:5em;
+    }
+    .exp{
+        padding-bottom: 3em;
     }
 }
 .team{
     background: url(../media/team-bg.JPG);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment:fixed;
     height: 100%;
     width: 100%;
@@ -400,6 +413,7 @@ header .social-links ul li a:focus {
     background: url(../media/contact-bg.JPG);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment:fixed;
     height: 100%;
     width: 100%;
@@ -413,7 +427,8 @@ header .social-links ul li a:focus {
     border: none;
     outline:none;
     width: 50%;
-    margin: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     height:45px;
     border: 2px solid #fff;
     border-radius: 0;
@@ -423,9 +438,6 @@ header .social-links ul li a:focus {
 }
 .contact textarea{
     height: 7em !important;
-}
-.contact input::placeholder{
-    color:#fff;
 }
 .contact button{
     width:20%;
@@ -442,4 +454,13 @@ header .social-links ul li a:focus {
 }
 input[placeholder]{
     color:#fff;
+}
+@media only screen and (max-width: 700px){
+    .form-control{
+        width: 80% !important;
+    }
+    .contact button{
+        width:40%;
+        height: 5em;
+    }  
 }
