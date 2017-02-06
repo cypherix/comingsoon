@@ -1,6 +1,6 @@
 
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
 @import url('https://fonts.googleapis.com/css?family=Arimo');
 @import url('https://fonts.googleapis.com/css?family=Roboto:900');
 /*!
@@ -373,8 +373,8 @@ header .social-links ul li a:focus {
 }
 @media only screen and (max-width: 700px){
     .about .img-description{
-        padding-left: 5em;
-        padding-right: 5em;
+        padding-left: 3em;
+        padding-right: 3em;
         margin-bottom: 2em;
     }
     .about .row{
