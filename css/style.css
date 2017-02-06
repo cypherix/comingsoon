@@ -364,6 +364,7 @@ header .social-links ul li a:focus {
 .about .img-description{
     margin-left: 4em;
     margin-right: 4em;
+    margin-bottom: 2em;
 }
 .about-description{
     font-size: 20px;
