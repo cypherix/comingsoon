@@ -337,6 +337,10 @@ header .social-links ul li a:focus {
         content: "";
         text-align: center !important;
     }
+    .subscribe-heading:after{
+        padding: 30px;
+        content: "";
+    }
     .news-letter button{
         text-align: center;
     }
