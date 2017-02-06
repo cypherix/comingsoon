@@ -27,7 +27,7 @@ body{
   VIDEO
 ============================================================================= */
 
-body{
+.main-page{
     background: url(../media/home-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
