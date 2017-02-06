@@ -340,14 +340,13 @@ header .social-links ul li a:focus {
 }
 
 .about{
-	background-image: url(../media/about-bg.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-    color:#fff !important;
+    background: url(../media/about-bg.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2em;
 }
 .about .row{
     margin-top: 10em;
@@ -374,14 +373,13 @@ header .social-links ul li a:focus {
     }
 }
 .team{
-	background-image: url(../media/team-bg.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-    color:#fff !important;
+    background: url(../media/team-bg.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2em;
 }
 .team .row{
     margin-top: 5em;
@@ -399,15 +397,13 @@ header .social-links ul li a:focus {
     margin-bottom: 5em;
 }
 .contact{
-	background-image: url(../media/contact-bg.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-    color:#fff !important;    
+    background: url(../media/contact-bg.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
     height: 100%;
+    width: 100%;
+    padding-bottom: 2em;
 }
 
 
