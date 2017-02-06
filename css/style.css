@@ -40,11 +40,6 @@ body{
           transform: translate(-50%, -50%);
     background-image: url(../media/home-bg.jpg)
 }
-
-body{
-    background: #000;
-}
-
 .main-page{
     background: url(../media/home-bg.jpg);
     background-repeat: no-repeat;
@@ -318,8 +313,12 @@ header .social-links ul li a:focus {
     text-decoration: underline;
 }
 .subscribe-heading{
+    margin-top: 12px;
     font-size: 30px !important;
     font-family: 'Arimo', sans-serif;
+}
+.subscribe-description{
+    font-size: 17px !important;
 }
 
 
@@ -340,6 +339,10 @@ header .social-links ul li a:focus {
 .form-control{
     display: inline;
     border: 1px solid #fff;
+}
+.news-letter{
+    border: 1px solid #fff;
+    margin-top: 20px;
 }
 #subscribe-submit{
     height: 43px;
