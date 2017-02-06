@@ -37,12 +37,6 @@ body{
     padding-bottom: 2em;
 }
 
-@media only screen and (max-width: 700px){
-    body{
-        background-attachment:scroll;
-    }
-}
-
 
 header {
 	width: 100%;
@@ -343,4 +337,38 @@ header .social-links ul li a:focus {
     .news-letter button{
         text-align: center;
     }
+}
+
+
+
+
+.about{
+	background-image: url(../media/about-bg.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+    color:#fff !important;
+}
+
+.info-overlay {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .7;
+}
+.about .row{
+    margin-top: 10em;
+    text-align: center;
+}
+.about img{
+    height: 150px;
+    width: 150px;
+}
+.exp{
+    padding-bottom: 7em;
 }
