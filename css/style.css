@@ -296,7 +296,7 @@ header .social-links ul li a:focus {
     margin-top: 12px;
     font-size: 30px !important;
     font-family: 'Arimo', sans-serif;
-    text-align: center;
+    text-align: center !important;
 }
 .subscribe-description{
     font-size: 17px !important;
@@ -335,7 +335,6 @@ header .social-links ul li a:focus {
     .subscribe-heading:before{
         padding: 30px;
         content: "";
-        text-align: center !important;
     }
     .subscribe-heading:after{
         padding: 30px;
