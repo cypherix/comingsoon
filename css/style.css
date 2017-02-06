@@ -382,7 +382,7 @@ header .social-links ul li a:focus {
     }
 }
 .team{
-    background: url(../media/team-bgmob.jpg);
+    background: url(../media/team-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -464,20 +464,6 @@ input[placeholder]{
 @media only screen and (max-width: 768px){
     .main-page{
         background: url(../media/home-bgmob.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment:scroll;
-    }
-    .about{
-        background: url(../media/about-bgmob.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment:scroll;
-    }
-    .team{
-        background: url(../media/team-bgmob.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
