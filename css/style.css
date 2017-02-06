@@ -37,6 +37,11 @@ body{
     padding-bottom: 2em;
 }
 
+@media only screen and (max-width: 700px){
+    body{
+        background-attachment:scroll;
+    }
+}
 
 
 header {
@@ -332,6 +337,7 @@ header .social-links ul li a:focus {
         content: "";
         text-align: center !important;
     }
-    .form-control{
+    .news-letter button{
+        text-align: center;
     }
 }
