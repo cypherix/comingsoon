@@ -30,7 +30,7 @@ body{
 .main-page{
     background: url(../media/home-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-attachment:fixed;
     height: 100%;
@@ -346,7 +346,7 @@ header .social-links ul li a:focus {
 .about{
     background: url(../media/about-bg.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-attachment:fixed;
     height: 100%;
@@ -387,7 +387,7 @@ header .social-links ul li a:focus {
 .team{
     background: url(../media/team-bg.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-attachment:fixed;
     height: 100%;
@@ -412,7 +412,7 @@ header .social-links ul li a:focus {
 .contact{
     background: url(../media/contact-bg.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-attachment:fixed;
     height: 100%;
