@@ -320,11 +320,6 @@ header .social-links ul li a:focus {
 .subscribe-description{
     font-size: 17px !important;
 }
-
-
-
-
-
 #subscribe-email{
     background-color:rgba(0, 0, 0, 0);
     color:white;
@@ -350,6 +345,6 @@ header .social-links ul li a:focus {
     background-color: rgba(0,0,0,0);
     border: none;
 }
-#subscribe-submit:focus{
-    color:black;
+#subscribe-submit:hover{
+    color:#2980B9;
 }
