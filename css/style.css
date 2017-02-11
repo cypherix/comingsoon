@@ -431,36 +431,14 @@ header .social-links ul li a:focus {
     border: 2px solid #fff;
     border-radius: 0;
 }
-.contact h1{
-    margin-top: 1.5em;
-}
-.contact textarea{
-    height: 7em !important;
-}
-.contact button{
-    width:20%;
-    height: 5em;
-}
-.contact button:hover{
-    color:#2980B9;
-}
 .contact{
-    text-align: center;
+    background-color: black;
 }
-.contact h1{
-    font-size: 5em;
+.contact a{
+    color: #fff;
 }
-input[placeholder]{
-    color:#fff;
-}
-@media only screen and (max-width: 700px){
-    .form-control{
-        width: 80% !important;
-    }
-    .contact button{
-        width:40%;
-        height: 5em;
-    }  
+.contact P{
+    margin: 1em;
 }
 @media only screen and (max-width: 768px){
     .main-page{
