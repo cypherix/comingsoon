@@ -1,6 +1,6 @@
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=../" />
+    <meta http-equiv="refresh" content="3; url=../" />
 </head>
 <body>
 <?php 
@@ -22,6 +22,6 @@ else
 	$s=mysqli_query($connect,"INSERT INTO `comingsoon`.`email`(`id`) VALUES('$email');"); 
 }
 ?>
-    <p>You will be redirected back now..</p>
+    <p>You will be redirected back in 3s..</p>
 </body>
 </html>
