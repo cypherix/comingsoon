@@ -112,11 +112,14 @@ header .social-links ul li a:visited {
 	color: #FFFFFF;
 }
 
-header .social-links ul li a:hover,
-header .social-links ul li a:focus {
-	color: #057f78;
+header .fa-facebook:hover,
+header .fa-facebook:focus {
+	color: #3b5998;
 }
-
+header .fa-twitter:hover,
+header .fa-twitter:focus {
+	color: #4099FF;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * header section 
