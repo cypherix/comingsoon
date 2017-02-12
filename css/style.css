@@ -112,13 +112,21 @@ header .social-links ul li a:visited {
 	color: #FFFFFF;
 }
 
-header .fa-facebook:hover,
-header .fa-facebook:focus {
-	color: #3b5998;
+.fa-facebook:hover,
+.fa-facebook:focus {
+    color: #3b5998;
 }
-header .fa-twitter:hover,
-header .fa-twitter:focus {
-	color: #4099FF;
+.fa-twitter:hover,
+.fa-twitter:focus {
+    color: #4099FF;
+}
+.fa-linkedin:hover,
+.fa-linkedin:focus {
+    color: #0077B5;
+}
+.fa-github:hover,
+.fa-github:focus {
+    color: #000000;
 }
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -407,9 +415,15 @@ header .fa-twitter:focus {
     border: 1px solid #fff;
     border-radius: 50%;
 }
-.team p{
+.team .links{
     margin-bottom: 5em;
 }
+.team .links a{
+    color:#fff;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
 .contact{
     background: url(../media/contact-bg.JPG);
     background-repeat: no-repeat;
